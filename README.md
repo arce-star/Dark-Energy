@@ -105,14 +105,6 @@ jupyter notebook notebooks/darkenergy.ipynb
 
 ## 技术细节
 
-### 核心概率模型
-
-对于观测数据 $y$，我们建立如下似然模型：
-
-$$ \ln \mathcal{L} = -\frac{1}{2} \sum \left[ \frac{(y - \text{model})^2}{\sigma^2} + \ln \sigma^2 \right] $$
-
-其中总方差 $\sigma^2 = \sigma_{\text{obs}}^2 + \text{model}^2 \cdot \exp(2\ln f)$。
-
 ### 主要依赖库
 
 - **Astropy**: 天文坐标与单位计算。
