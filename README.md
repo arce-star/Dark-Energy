@@ -19,13 +19,13 @@ Dark_Energy/
 ├── data/                    # 原始天文数据
 │   └── Tonry_2003.vot       # Tonry 2003 观测表格
 ├── src/                     # 源代码
-│   ├── data.py         # 数据加载及预处理
+│   ├── data.py              # 数据加载及预处理
 │   ├── visualization.py     # 数据可视化
 │   ├── linear.py            # 线性拟合
 │   ├── MLE.py               # 最大似然估计
-│   └── MCMC.py            # MCMC采样
+│   └── MCMC.py              # MCMC采样
 ├── notebooks/               # Jupyter 笔记本
-│   └── Hubble_Constant_MCMC.ipynb
+│   └── darkenergy.ipynb
 ├── results/                 # 分析结果
 │   ├── plots/               # 数据预处理图
 │   ├── linear/              # 线性拟合图
@@ -42,7 +42,7 @@ Dark_Energy/
 1. **克隆仓库**
 
    ```bash
-   git clone https://github.com/arce-star/Dark-Energy/hubble-constant-analysis.git
+   git clone https://github.com/arce-star/Dark-Energy.git
    cd hubble-constant-analysis
    ```
 
